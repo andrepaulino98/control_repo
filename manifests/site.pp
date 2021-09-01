@@ -1,7 +1,7 @@
 node default {
   file {'/root/README':
-    ensure => file,
+    ensure  => file,
     content => 'Teste d e deploy',
-    owner => 'root',
+    owner   => 'root',
   }
 }
